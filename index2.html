@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <section>
+    <div>
+      <h2>Age Calculator</h2>
+    </div>
+
+    <!-- Visible Section -->
+    <div id="shownContent" class="shownContent">
+      <form>
+        <label>Date Of Birth:</label>
+        <input type="date" name="date" id="date">
+        <br><br><br>
+        <button id="button">What's My Age?</button>
+      </form>
+    </div>
+
+    <!-- Hidden Section -->
+    <div id="hiddenContent" class="hiddenContent">
+      <p>Your Age: <br><br> <span id="ageIs"></span> years</p>
+      <p><span id="ageIs2"></span> months</p>
+      <p><span id="daysLived"></span> days</p>
+
+    </div>
+  </section>
+
+  <script src="script2.js"></script>
+</body>
+</html>

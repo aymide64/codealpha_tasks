@@ -1,0 +1,173 @@
+* {
+    text-align: center;
+    background-color: wheat;
+}
+p {
+    font-size: 16pt;
+}
+div h2 {
+    padding-top: 100px;
+}
+div label {
+    font-weight: 600;
+    padding-right: 30px;
+    background-color: white;
+}
+div {
+    padding-top: 10px;
+}
+h2{
+    font-size: 50px;
+}
+span{
+    font-size: 30pt;
+    font-weight: 800;
+}
+form, p, span {
+    background-color: white;
+}
+#shownContent, #hiddenContent {
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+    padding: 40px 30px;
+    margin: 0 300px;
+}
+
+input {
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    padding: 5px 4px;
+}
+.hiddenContent, .Content2 {
+    display: none;
+}
+
+button {
+    border: 2px solid red;
+    border-radius: 10px;
+    color: oklch(100% 0.00011 271.152);
+    background-color: red;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+button:hover{
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+
+
+      /* responsiveness */
+      @media (max-width:375px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 20px 50px;
+                        margin: 0 10px;
+                    }
+
+}
+    @media (max-width:414px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 40px 80px;
+                        margin: 0 30px;
+                    }
+
+}
+    @media (max-width:430px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 40px 30px;
+                        margin: 0 30px;
+                    }
+
+}
+    @media (max-width:780px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 40px 30px;
+                        margin: 0 90px;
+                    }
+
+}
+    @media (max-width:880px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 40px 30px;
+                        margin: 0 50px;
+                    }
+
+}
+    @media (width:912px) {
+        *{
+            text-align: center;
+        }
+        div h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 40px;
+                }
+                #shownContent, #hiddenContent {
+                        border: 1px solid red;
+                        border-radius: 20px;
+                        background-color: white;
+                        padding: 40px 80px;
+                        margin: 0 120px;
+                    }
+
+}
